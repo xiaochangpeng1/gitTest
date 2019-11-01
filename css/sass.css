@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/*   
+    该注释会编译到css内 
+*/
+.wrap {
+  width: 200px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  background: #ccc;
+  font-size: 20px;
+}
+.wrap .box1, .wrap .box1-p {
+  width: 150px;
+  height: 80px;
+  background: #999999;
+}
+.wrap .box1-p {
+  color: orange;
+}
+
+.box2 {
+  width: 200px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  background-color: #ff6666;
+  font-size: 20px;
+}
+
+.box3 {
+  width: 300px;
+  background: blue;
+  height: 100px;
+}
